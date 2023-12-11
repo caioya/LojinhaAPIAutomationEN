@@ -1,0 +1,45 @@
+Test Case
+
+1) Test Coverage Items
+
+Identifier
+#4.2
+
+Description
+- Registration of 1 component
+
+Priority
+- High
+
+
+2) Test Cases
+
+Identifier
+- #4.2
+
+Goal
+- Validate that registration of 1 component is allowed
+
+Priority
+- High
+
+Preconditions
+- It is possible to log in with the informed user
+- That the application is available
+- That a product with the following parameters is created:
+Product Name: Product Component Registration 1
+Product Value: 1000.00
+Product Colors: Standard Black, Standard White
+
+Inputs
+- User: testAPICaioEN
+- Password: testAPICaioEN
+- baseURI: http://165.227.93.41
+- basePath: /lojinha
+- finalURI: /v2/produtos/925015/componentes
+- Component Name: Component Registration 1
+- Component Quantity: 1
+
+Expected results
+- View a toast with the information "Componente de produto adicionado com sucesso"
+- The status code must be 201 in the component registration

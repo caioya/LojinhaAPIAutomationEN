@@ -1,0 +1,79 @@
+Test Case
+
+1) Test Coverage Items
+
+Identifier
+#4.4
+
+Description
+- Registration of 17 components
+
+Priority
+- High
+
+
+2) Test Cases
+
+Identifier
+- #4.4
+
+Goal
+- Validate that registration of 17 components is not allowed
+
+Priority
+- High
+
+Preconditions
+- It is possible to log in with the informed user
+- That the application is available
+- That a product with the following parameters is created:
+Product Name: Product Component Registration 17
+Product Value: 1000.00
+Product Colors: Standard Black, Standard White
+
+Inputs
+- User: testAPICaioEN
+- Password: testAPICaioEN
+- baseURI: http://165.227.93.41
+- basePath: /lojinha
+- finalURI: /v2/produtos/925017/componentes
+- Component Name 1: Component Registration 17.1
+- Component Quantity: 1
+- Component Name 2: Component Registration 17.2
+- Component Quantity: 2
+- Component Name 3: Component Registration 17.3
+- Component Quantity: 3
+- Component Name 4: Component Registration 17.4
+- Component Quantity: 4
+- Component Name 5: Component Registration 17.5
+- Component Quantity: 5
+- Component Name 6: Component Registration 17.6
+- Component Quantity: 6
+- Component Name 7: Component Registration 17.7
+- Component Quantity: 7
+- Component Name 8: Component Registration 17.8
+- Component Quantity: 8
+- Component Name 9: Component Registration 17.9
+- Component Quantity: 9
+- Component 10 Name: Component Registration 17.10
+- Component Quantity: 10
+- Component Name 11: Component Registration 17.11
+- Component Quantity: 11
+- Component Name 12: Component Registration 17.12
+- Component Quantity: 12
+- Component Name 13: Component Registration 17.13
+- Component Quantity: 13
+- Component Name 14: Component Registration 17.14
+- Component Quantity: 14
+- Component Name 15: Component Registration 17.14
+- Component Quantity: 15
+- Component Name 16: Component Registration 17.16
+- Component Quantity: 16
+- Component Name 17: Component Registration 17.17
+- Component Quantity: 17
+
+Expected results
+- See a toast with the information "Componente de produto adicionado com sucesso" in the first 16 component records
+- The status code must be 201 in the first 16 component records
+- See a toast with the information "O número máximo de componentes é 16" in the 17th component record
+- The status code must be 422 in the 17th component record

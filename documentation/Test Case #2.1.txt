@@ -1,0 +1,43 @@
+Test Case
+
+1) Test Coverage Items
+
+Identifier
+#2.1
+
+Description
+- Product change with a value equal to R$0.00
+
+Priority
+- Medium
+
+
+2) Test Cases
+
+Identifier
+- #2.1
+
+Goal
+- Validate that changing a product with a value equal to R$0.00 is not allowed
+
+Priority
+- Medium
+
+Preconditions
+- It is possible to log in with the informed user
+- That the application is available
+- There must be a previously registered product (Not Updated Product 000)
+
+Inputs
+- User: testAPICaioEN
+- Password: testAPICaioEN
+- baseURI: http://165.227.93.41
+- basePath: /lojinha
+- finalURI: /v2/produtos/925010
+- Product Name: Updated Product 000
+- Product Value: 0.00
+- Product Colors: Standard Red, Standard Pink
+
+Expected results
+- View a toast with the information "O valor do produto deve estar entre R$ 0,01 e R$ 7.000,00"
+- The status code should be 422

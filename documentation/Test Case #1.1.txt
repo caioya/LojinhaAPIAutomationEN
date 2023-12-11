@@ -1,0 +1,43 @@
+Test Case
+
+1) Test Coverage Items
+
+Identifier
+#1.1
+
+Description
+- Product registration with a value equal to R$0.00
+
+Priority
+- High
+
+Severity
+- Minor
+
+
+2) Test Cases
+
+Identifier
+- #1.1
+
+Goal
+- Validate that the registration of a product with a value equal to R$0.00 is not allowed
+
+Preconditions
+- It is possible to log in with the informed user
+- That the application is available
+
+Inputs
+- User: testAPICaioEN
+- Password: testAPICaioEN
+- ContentType: application/json
+- baseURI: http://165.227.93.41
+- basePath: /lojinha
+- finalURI: /v2/login
+- Product Name: Product Registration 000
+- Product Value: 0.00
+- Product Colors: Standard Red, Standard Pink
+
+Expected results
+- An error toast saying "O valor do produto deve estar entre R$ 0,01 e R$ 7.000,00"
+- The status code should be 422

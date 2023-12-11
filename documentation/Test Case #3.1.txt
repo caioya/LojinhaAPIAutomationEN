@@ -1,0 +1,39 @@
+Test case
+
+1) Test Coverage Items
+
+Identifier
+#3.1
+
+Description
+- Product exclusion
+
+Priority
+- Medium
+
+
+2) Test cases
+
+Identifier
+-#3.1
+
+Goal
+- Validate the deletion of a product
+
+Priority
+- Medium
+
+Preconditions
+- It is possible to log in with the informed user
+- What application is available
+- That there is a previously registered product (Product Deletion)
+
+Inputs
+- User: testAPICaioEN
+- Password: testAPICaioEN
+- baseURI: http://165.227.93.41
+- basePath: /lojinha
+- Final URI: /v2/produtos/925049
+
+Expected results
+- Let the status code be 204

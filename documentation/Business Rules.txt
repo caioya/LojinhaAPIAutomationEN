@@ -1,0 +1,5 @@
+Business rules
+
+BR1 - The value of the store's products is always greater than zero and should never exceed R$7000
+
+BR2 - A product can have a maximum of 16 linked components

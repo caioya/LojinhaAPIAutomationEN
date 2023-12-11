@@ -1,0 +1,42 @@
+Test Case
+
+1) Test Coverage Items
+
+Identifier
+#4.1
+
+Description
+- Product registration without components
+
+Priority
+- High
+
+
+2) Test Cases
+
+Identifier
+- #4.1
+
+Goal
+- Validate that registration of a product without components is allowed
+
+Priority
+- High
+
+Preconditions
+- It is possible to log in with the informed user
+- That the application is available
+
+Inputs
+- User: testAPICaioEN
+- Password: testAPICaioEN
+- baseURI: http://165.227.93.41
+- basePath: /lojinha
+- finalURI: v2/products
+- Product Name: Component Product Registration 0
+- Product Value: 1000.00
+- Product Colors: Standard Black, Standard White
+
+Expected results
+- View a toast with the information "Produto adicionado com sucesso"
+- The status code should be 201

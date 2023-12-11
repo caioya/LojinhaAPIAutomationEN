@@ -1,0 +1,109 @@
+Test Plan
+
+1) General Information
+
+Overview
+
+Test Plan to automate the main flows of the application
+
+Identifier
+#1
+
+Organization
+Caio Yabiku Ltda.
+
+Change history
+- September 21, 2023 I have created the Test Plan
+
+Scope
+- Lojinha API 2.0 Project
+- Lojinha Web out of scope
+- Lojinha Android and iOS App is not in scope
+
+Glossary
+- API: Application Proggramming Interface
+
+
+2) Test context
+
+Test Projects
+- Lojinha API 2.0
+
+Test Item
+- Lojinha API 2.0
+
+Test Scope
+
+Will be tested:
+- Product Registration (Test Cases #1)
+- Product Editing (Test Cases #2)
+- Product Exclusion (Test Cases #3)
+- Component Registration (Test Cases #4)
+- Component Deletion (Test Cases #5)
+
+Will not be tested
+- Log in
+- User Registration
+
+It cannot be tested
+- It is not possible to edit a component
+
+Assumptions and restrictions
+- There must be environments for running the Lojinha API (P)
+- SWAGGER delivered (P)
+- Business rules reviewed and delivered (P)
+
+
+3) Testing strategy
+
+Subprocess testing
+-Lojinha API 2.0
+
+Test Deliverables
+- Test Plan
+- Test Cases
+- Automated Testing in Git
+- Decision table based on business rules
+
+Testing Techniques
+- Decision Table (Test based on Business Rules)
+- Limit Values ​​(Test based on Business Rules)
+
+Test data requirements
+- Test mass with 9 products already registered in the Store
+- 1 registered user with access to the Store
+
+New tests and regression tests
+- New tests each new delivery
+- Regressive testing before delivery to the next phase
+
+Suspension and resumption criteria
+- Lojinha API is down for more than 2 days (Suspension)
+- Lojinha API returned to operation and has been online for more than 12 hours (Resumption)
+
+4) Activities and estimates
+
+Testing activities and estimates
+- Document review, Gabriel and 4 days
+- Preparation of test cases, Rayana and 4 days
+- Test automation, Caio and 7 days
+
+
+5) Team
+
+Roles, activities and responsibilities
+-Test Specialist, Gabriel, Review of test documentation (test plans, test cases and test procedures)
+-Test Analyst, Rayana, Create test documentation
+-Test automation, Caio, Automate APIs
+
+Needs
+- Intellij IDE Paid Version
+- Test environment
+
+
+
+6) Schedule
+- September 18-22: Create Test Plan
+- September 25-29: Create Test Cases
+- September 18-29: Document Review
+- September 28 - October 6: Automate tests

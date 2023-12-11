@@ -1,0 +1,75 @@
+Test Case
+
+1) Test Coverage Items
+
+Identifier
+#4.3
+
+Description
+- Registration of 16 components
+
+Priority
+- High
+
+
+2) Test Cases
+
+Identifier
+- #4.3
+
+Goal
+- Validate that registration of 16 components is allowed
+
+Priority
+- High
+
+Preconditions
+- It is possible to log in with the informed user
+- That the application is available
+- That a product with the following parameters is created:
+Product Name: Product Component Registration 16
+Product Value: 1000.00
+Product Colors: Standard Black, Standard White
+
+Inputs
+- User: testAPICaioEN
+- Password: testAPICaioEN
+- baseURI: http://165.227.93.41
+- basePath: /lojinha
+- finalURI: /v2/produtos/925016/componentes
+- Component Name 1: Component Registration 16.1
+- Component Quantity: 1
+- Component Name 2: Component Registration 16.2
+- Component Quantity: 2
+- Component Name 3: Component Registration 16.3
+- Component Quantity: 3
+- Component Name 4: Component Registration 16.4
+- Component Quantity: 4
+- Component Name 5: Component Registration 16.5
+- Component Quantity: 5
+- Component Name 6: Component Registration 16.6
+- Component Quantity: 6
+- Component Name 7: Component Registration 16.7
+- Component Quantity: 7
+- Component Name 8: Component Registration 16.8
+- Component Quantity: 8
+- Component Name 9: Component Registration 16.9
+- Component Quantity: 9
+- Component Name 10: Component Registration 16.10
+- Component Quantity: 10
+- Component Name 11: Component Registration 16.11
+- Component Quantity: 11
+- Component Name 12: Component Registration 16.12
+- Component Quantity: 12
+- Component Name 13: Component Registration 16.13
+- Component Quantity: 13
+- Component Name 14: Component Registration 16.14
+- Component Quantity: 14
+- Component Name 15: Component Registration 16.14
+- Component Quantity: 15
+- Component Name 16: Component Registration 16.16
+- Component Quantity: 16
+
+Expected results
+- See a toast with the information "Componente de produto adicionado com sucesso" in each component record
+- The status code must be 201 in each component record

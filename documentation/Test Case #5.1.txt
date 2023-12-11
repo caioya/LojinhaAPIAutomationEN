@@ -1,0 +1,39 @@
+Test Case
+
+1) Test Coverage Items
+
+Identifier
+#5.1
+
+Description
+- Component deletion
+
+Priority
+- Medium
+
+
+2) Test Cases
+
+Identifier
+- #5.1
+
+Goal
+- Validate that the deletion of a component is carried out
+
+Priority
+- Medium
+
+Preconditions
+- It is possible to log in with the informed user
+- That the application is available
+- There must be a previously registered product (Product Component Deletion) with a previously registered component (Component Deletion)
+
+Inputs
+- User: testAPICaioEN
+- Password: testAPICaioEN
+- baseURI: http://165.227.93.41
+- basePath: /lojinha
+- finalURI: /v2/produtos/925018/componentes/947627
+
+Expected results
+- The status code should be 204
